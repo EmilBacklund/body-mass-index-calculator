@@ -7,7 +7,8 @@ export default {
 				blue: {
 					DEFAULT: '#345FF6',
 					'dark-electric': '#5E6E85',
-					gunmetal: '#253347'
+					gunmetal: '#253347',
+					gradient: '#D6E6FE'
 				},
 				borders: '#D8E2E7'
 			},
@@ -17,7 +18,7 @@ export default {
 					{
 						lineHeight: '110%',
 						fontWeight: '600',
-						letterSpacing: '-3.2px'
+						letterSpacing: '-0.2rem'
 					}
 				],
 				'heading-l': [
@@ -25,7 +26,7 @@ export default {
 					{
 						lineHeight: '110%',
 						fontWeight: '600',
-						letterSpacing: '-3.2px'
+						letterSpacing: '-0.2rem'
 					}
 				],
 				'heading-m': [
@@ -33,7 +34,7 @@ export default {
 					{
 						lineHeight: '110%',
 						fontWeight: '600',
-						letterSpacing: '-3.2px'
+						letterSpacing: '-0.2rem'
 					}
 				],
 				'heading-s': [
@@ -41,7 +42,7 @@ export default {
 					{
 						lineHeight: '110%',
 						fontWeight: '600',
-						letterSpacing: '-3.2px'
+						letterSpacing: '-0.2rem'
 					}
 				],
 				'body-m': [

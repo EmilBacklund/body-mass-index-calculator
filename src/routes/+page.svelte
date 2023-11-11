@@ -1,7 +1,19 @@
+<script>
+	import BackgroundBanner from '../components/BackgroundBanner.svelte';
+	import Header from '../components/Header.svelte';
+	import Container from '../layout/Container.svelte';
+	import BmiCalculator from '../components/BMICalculator.svelte';
+</script>
+
 <svelte:head>
 	<title>Body mass calculator</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<h1 class="text-2xl">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<div class="relative font-inter">
+	<BackgroundBanner />
+	<Container>
+		<Header />
+		<BmiCalculator />
+	</Container>
+</div>
